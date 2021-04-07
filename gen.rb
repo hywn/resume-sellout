@@ -22,17 +22,21 @@ output = text.scan(/(.+)\n(---+|===+)\n((?:(?:\t|\*).+\n?|\n)+)/).map { |title, 
 		sub.gsub! /«(.+)»\n/, %q{<blockquote class='sellout'>\1</blockquote>}
 		sub.gsub!(/\t- (.+)/m) { $1.strip.gsub("\n", '<br />') }
 
-		main.gsub! /<([ \d\-Present,]+?)>$/, ''
+		main.gsub! /{(.+?)}/, ''
+		lang = $1
 
-		'<div class="second">%s%s</div>%s' %
-		[
+		main.gsub! /<([ \d\-Present,]+?)>$/, ''
+		date = $1
+
+		'<div class=second><div class=header>%s%s</div>%s</div>%s' % [
 			main,
+			("<span class=lang>#{lang}</span>" if lang),
 			("<blockquote>#{sub}</blockquote>" if not sub.empty?),
-			('<div class="third">%s</div>' % $1 if $1)
+			("<div class=third>#{date}</div>"  if date)
 		]
 
 	}
 
 }
 
-File.write 'docs/index.html', "<style>#{css}</style><body>#{output.join '<div class="filler"></div>'}</body>"
+File.write 'docs/index.html', "<style>#{css.gsub /\s+/, ' '}</style><body>#{output.join '<div class="filler"></div>'}</body>"
