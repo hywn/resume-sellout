@@ -20,6 +20,9 @@ Experience
 
 Selected Projects
 ------------------
+* [fb-sock](https://odcy.github.io/fb-sock-writeup/) {JS} <2021>
+	- Figuring out how to programmatically send stickers by reverse-engineering Facebook Messenger
+
 * [nessiebox](https://github.com/hywn/h-seee) {JS} <2020>
 	- Hackathon entry that stores arbitrary data in Capital One's "Nessie" API (file storage in toy banking API)
 
@@ -47,4 +50,4 @@ Tech
 * HTML/CSS
 * Java
 * Python
-* Ruby, Haskell, C, x86 Assembly, SQL, *nix, Git, Make, Maven, Web Scraping, Data Structures, Algorithms, Functional Paradigms, OOP Paradigms, Microsoft Office, Wolfram Mathematica, Autodesk Inventor, cowsay
+* Ruby, Haskell, C, x86 Assembly, SQL, *nix, Git, Make, Maven, Web Scraping, Data Structures, Algorithms, Functional Programming, Microsoft Office, Wolfram Mathematica, Autodesk Inventor, cowsay
