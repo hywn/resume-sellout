@@ -12,6 +12,8 @@ Education
 
 Experience
 -----------
+* [Computer Graphics TA](https://www.cs.virginia.edu/luther/4810/F2021/) <2021-2022>
+	- Helped students with various graphics-related assignments including a 2D rasterizer, 3D rasterizer, and raycaster.
 * [Scorebook](https://github.com/hywn/Scorebook) { Java, SQL, Git } <2019>
 	- Guided team through construction of large JavaFX application built to specification of high-school track team. Helped team members learning Git version control; managed pull requests.
 
