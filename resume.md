@@ -21,7 +21,7 @@ Experience
 Selected Projects
 ------------------
 * [fb-sock](https://odcy.github.io/fb-sock-writeup/) {JS} <2021>
-	- Figuring out how to programmatically send stickers by reverse-engineering Facebook Messenger
+	- Figured out how to programmatically send stickers by reverse-engineering Facebook Messenger
 
 * [lihh](https://github.com/hywn/lihh) {Haskell} <2020>
 	- Toy programming language based on lambda calculus designed/written from scratch
