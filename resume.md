@@ -50,7 +50,7 @@ Extracurricular
 Tech
 -----
 * JavaScript
-* HTML/CSS
 * Java
 * Python
-* Ruby, Haskell, C, x86 Assembly, SQL, *nix, Git, Make, Maven, Web Scraping, Data Structures, Algorithms, Functional Programming, Microsoft Office, Wolfram Mathematica, Autodesk Inventor, cowsay
+* Haskell
+* HTML/CSS, Ruby, C, x86 Assembly, SQL, *nix, Git, Make, Maven, Web Scraping, Data Structures, Algorithms, Functional Programming, Microsoft Office, Wolfram Mathematica, Autodesk Inventor, cowsay
