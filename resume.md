@@ -34,9 +34,6 @@ Selected Projects
 * [simple-Yelp](https://github.com/hywn/simple-Yelp) {Ruby, JS, HTML/CSS} <2020>
 	- Simpler/easier-to-use Yelp interface wrapping the Yelp Fusion API
 
-* [han](https://hywn.github.io/han/cognates/) {Ruby/Python, HTML/CSS} <2020>
-	- Online gallery of Japanese and Korean cognates with interactive display
-
 * [schedule](http://hywn.github.io/sche/schedule?src=https://gist.githubusercontent.com/hywn/7e52ab8abe2ae75b04116ba36a20cfc2/raw/) {JS, HTML/CSS} <2019>
 	- Tool that generates blocked schedules from custom markup language. Later extended into a tool that generates schedules from UVA class codes using scraped course data
 
