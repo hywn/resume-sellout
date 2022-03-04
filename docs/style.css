@@ -30,7 +30,7 @@ a, a:visited { color: #00a }
 a:hover { color: #55f }
 .date { grid-column: 4; color: #aaa }
 .lang { grid-column: 3 }
-@media (max-width: 728px) {
+@media only screen and (max-width: 728px) {
 	body
 		{ display: block
 		; margin: 2rem 1.2rem 2rem 1.2rem
