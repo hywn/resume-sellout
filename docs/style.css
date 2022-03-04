@@ -35,6 +35,7 @@ a:hover { color: #55f }
 		{ display: block
 		; margin: 2rem 1.2rem 2rem 1.2rem
 		}
+	h2 { font-size: 1.25rem; margin-bottom: 0.4rem }
 	.lang { float: right }
 	.detail { width: unset }
 }
