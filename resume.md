@@ -12,12 +12,13 @@ Education
 
 Experience
 -----------
-* [Computer Graphics TA](https://www.cs.virginia.edu/luther/4810/F2021/) <2021-2022>
+* [Computer Graphics TA](https://www.cs.virginia.edu/luther/4810/F2021/) <2021 - 2022>
 	- Helped students with various graphics-related assignments including a 2D rasterizer, 3D rasterizer, and raytracer.
 * [Scorebook](https://github.com/hywn/Scorebook) { Java, SQL, Git } <2019>
 	- Guided team through construction of large JavaFX application built to specification of high-school track team. Helped team members learning Git version control; managed pull requests.
 * [MonkeyGamesMC](https://github.com/mogmc) { Java, SQL, Git, Maven } <2014 - 2017>
 	- Built custom plugins to specification + creatively for public game server with peak ~100 players. Plugins improved server functionality and provided player enjoyment. Worked alone and in small group.
+
 
 Selected Projects
 ------------------
@@ -48,4 +49,4 @@ Extracurricular
 Tech
 -----
 * JavaScript, Java, Python, Haskell
-* C, OCaml, HTML/CSS, Ruby, x86 Assembly, Deno, Node.js, SQL, *nix, Git, Make, Maven, Web Scraping, Data Structures, Algorithms, Functional Programming, Microsoft Office, Wolfram Mathematica, Autodesk Inventor, cowsay
+	- C, OCaml, HTML/CSS, Ruby, x86 Assembly, Deno, Node.js, SQL, *nix, Git, Make, Maven, Web Scraping, Data Structures, Algorithms, Functional Programming, Microsoft Office, Wolfram Mathematica, Autodesk Inventor, cowsay

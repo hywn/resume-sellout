@@ -1,0 +1,47 @@
+body
+	{ display: grid
+	; grid-template-columns: 1fr 32rem 1fr;
+	; gap: 0.2rem 1rem
+	; line-height: 1.45
+	; margin: 4rem auto 4em auto
+	}
+
+h1, h2 { margin: 0; font-size: 1rem; font-weight: bold }
+
+h1 { font-size: 2.5rem }
+h2 { text-align: right }
+
+h2 { grid-column: 1 }
+h1, .content, .detail { grid-column: 2 }
+.spacer { grid-column: 2; height: 2rem }
+
+.detail { color: #777; margin: 0 0 0 2rem }
+.date { color: #aaa }
+
+a, a:visited { color: #000 }
+a:hover { color: #00f }
+
+.contact::before { content: '>>> ' }
+.content { display: grid; grid-template-columns: 1fr min-content }
+
+h2, .date, .lang { white-space: nowrap }
+
+.lang
+	{ font-size: 75%
+	; color: #a99
+	; align-self: flex-end
+	; justify-self: flex-end
+	}
+.lang::before { content: '{'; padding-right: 0.2rem }
+.lang::after  { content: '}'; padding-left:  0.2rem }
+
+@media (max-width: 728px) {
+	body
+		{ margin: 1.2rem
+		; grid-template-columns: 1fr min-content;
+		}
+	h1, h2, .spacer, .detail { grid-column: 1 / span 2 }
+	h2 { text-align: unset; font-size: 1.5rem }
+	.content { grid-column: 1; grid-template-columns: max-content min-content; gap: 0.2rem }
+	.date { grid-column: 2; text-align: right }
+}
