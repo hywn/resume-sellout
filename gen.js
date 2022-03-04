@@ -9,8 +9,9 @@ Function.prototype.after = function(f) {
 const opt = ([a, b], thing) => thing ? `${a}${thing}${b}` : ''
 
 const contentf = (_, content, langm, datem) =>
-	`<div class=content><div>${content}</div>${opt`<div class=lang>${langm}</div>`}</div>`
-	+ opt`<div class=date>${datem}</div>`
+	`<div class=content>${content}</div>
+	${opt`<div class=lang>${langm}</div>`}
+	${opt`<div class=date>${datem}</div>`}`
 
 const process = text => text
 	.replace(/(\w.+)\n===+/g, '<h1>$1</h1>')
